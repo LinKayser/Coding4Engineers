@@ -27,7 +27,7 @@ namespace Coding4Engineers
         {
             public class App
             {
-                public static void Go()
+                public static void Run()
                 {
                     BasePlate oBase = new();
 

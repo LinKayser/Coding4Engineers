@@ -1,6 +1,7 @@
 ﻿try
 {
-    PicoGK.Library.Go(0.5f, Coding4Engineers.Chapter10.Fixtures.App.Go);
+    PicoGK.Library.Go(  0.5f, 
+                        Coding4Engineers.Chapter10.Fixtures.App.Run);
 }
 
 catch (Exception ex)
