@@ -47,7 +47,7 @@ namespace Coding4Engineers
                                         oObject,
                                         new ProgressReporterActive());
 
-                oFixture.voxAsVoxels().mshAsMesh().SaveToStlFile(Path.Combine(Utils.strDocumentsFolder(),
+                oFixture.voxAsVoxels().mshAsMesh().SaveToStlFile(Path.Combine(  Utils.strDocumentsFolder(),
                                                                                 "Fixture.stl"));
             }
         }
