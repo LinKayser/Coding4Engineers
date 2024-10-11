@@ -80,8 +80,6 @@ namespace Coding4Engineers
 
                     m_voxObject = new Voxels(msh.mshCreateTransformed(Vector3.One, vecOffset));
 
-                    Console.WriteLine(voxObject().mshAsMesh().oBoundingBox());
-
                     m_fObjectBottom = fObjectBottomMM;
                     m_fSleeve = fSleeveMM;
                     m_fWall = fWallMM;
