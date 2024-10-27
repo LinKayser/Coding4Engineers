@@ -1,7 +1,7 @@
 ﻿try
 {
-    PicoGK.Library.Go(  .5f, 
-                        Coding4Engineers.Chapter12.FixtureMakerApp.Run);
+    PicoGK.Library.Go(  .1f, 
+                        Coding4Engineers.Chapter13.MakeBeams.RunMatrices);
 }
 
 catch (Exception ex)
