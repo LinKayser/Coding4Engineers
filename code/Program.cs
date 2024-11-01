@@ -1,7 +1,7 @@
 ﻿try
 {
     PicoGK.Library.Go(  .1f, 
-                        Coding4Engineers.Chapter13.MakeBeams.RunMatrices);
+                        Coding4Engineers.Chapter14.LatticeMap.Run);
 }
 
 catch (Exception ex)
