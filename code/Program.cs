@@ -1,7 +1,7 @@
 ﻿try
 {
     PicoGK.Library.Go(  .1f, 
-                        Coding4Engineers.Chapter14.LatticeMap.Run);
+                        Coding4Engineers.Chapter15.ShowBoxesInCircles.Run);
 }
 
 catch (Exception ex)
