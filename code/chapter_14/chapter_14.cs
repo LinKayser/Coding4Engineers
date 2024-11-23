@@ -130,7 +130,7 @@ namespace Coding4Engineers
         {
             public static void Run()
             {
-                string strImagePath = Path.Combine(Utils.strProjectRootFolder(), "chapter_14/PicoGK.tga");
+                string strImagePath = Path.Combine(Utils.strProjectRootFolder(), "Assets/PicoGK.tga");
                 TgaIo.LoadTga(strImagePath, out Image img);
 
                 Lattice latPaint = new();
