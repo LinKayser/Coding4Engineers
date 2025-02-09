@@ -17,8 +17,6 @@
 //
 
 using System.Numerics;
-using System.Runtime.InteropServices;
-using Microsoft.VisualBasic;
 using PicoGK;
 
 namespace Coding4Engineers
