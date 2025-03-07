@@ -1,7 +1,7 @@
 ﻿try
 {
     PicoGK.Library.Go(  .1f, 
-                        Coding4Engineers.Chapter18.Demo.Run);
+                        Coding4Engineers.Chapter19.Demo.RunGyroid);
 }
 
 catch (Exception ex)
