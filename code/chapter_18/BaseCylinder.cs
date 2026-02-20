@@ -159,8 +159,6 @@ namespace Coding4Engineers.Chapter18
         INormalizedContour2d m_oEdgeTop;
 
         float   m_fHeight;
-        int     m_nUSubDiv = 0;
-        int     m_nVSubDiv = 0;
 
         ISurfaceModulation  m_xModulation       = new SurfaceModulationNoop();
         float               m_fModulationHeight = 0f;
