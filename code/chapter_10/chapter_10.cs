@@ -31,9 +31,7 @@ namespace Coding4Engineers
                 {
                     BasePlate oBase = new();
 
-                    Mesh mshSmall = Mesh.mshFromStlFile(Path.Combine(
-                                            Utils.strPicoGKSourceCodeFolder(),
-                                            "Examples/Testfiles/Teapot.stl"));
+                    Mesh mshSmall = Mesh.mshFromStlFile(Path.Combine(Utils.strProjectRootFolder(), "Assets/Teapot.stl"));
 
                     Mesh mshObject = mshSmall.mshCreateTransformed(new(6, 6, 6), Vector3.Zero);
 
