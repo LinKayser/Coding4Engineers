@@ -1,7 +1,7 @@
 ﻿try
 {
-    PicoGK.Library.Go(  .1f, 
-                        Coding4Engineers.AnimatedObject.App.Run);
+    PicoGK.Library.Go(  5f, 
+                        Coding4Engineers.Chapter23.App.Run);
 }
 
 catch (Exception ex)
