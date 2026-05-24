@@ -1,7 +1,7 @@
 ﻿try
 {
-    PicoGK.Library.Go(  5f, 
-                        Coding4Engineers.Chapter23.App.Run);
+    PicoGK.Library.Go(  .2f, 
+                        Coding4Engineers.Chapter24.PlayGround.AlignedObjectsAroundCylinder);
 }
 
 catch (Exception ex)
