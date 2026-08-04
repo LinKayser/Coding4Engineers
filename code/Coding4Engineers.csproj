@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="PicoGK" Version="2.2.0" />
+    <PackageReference Include="PicoGK" Version="2.3.0" />
+    <PackageReference Include="UnitsNet" Version="5.75.0" />
   </ItemGroup>
 
 </Project>
